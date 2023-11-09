@@ -1,0 +1,7 @@
+pip install pytesseract
+!sudo apt install tesseract-ocr
+%cd /content/drive/MyDrive/Colab/Pattern-Matching
+cp /content/drive/MyDrive/Colab/Pattern-Matching/rsc/tesseract/spa.traineddata /usr/share/tesseract-ocr/4.00/tessdata
+!python main.py
+
+
